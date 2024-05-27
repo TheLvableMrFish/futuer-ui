@@ -1,15 +1,15 @@
 {
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/Sun", "dest": "./Sun.html" },
-      { "src": "/Mercury", "dest": "./Mercury.html" },
-      { "src": "/Venus", "dest": "./Venus.html" },
-      { "src": "/Earth", "dest": "./Earth.html" },
-      { "src": "/Mars", "dest": "/Mars.html" },
-      { "src": "/Jupiter", "dest": "/Jupiter.html" },
-      { "src": "/Saturn", "dest": "/Saturn.html" },
-      { "src": "/Uranus", "dest": "/Uranus.html" },
-      { "src": "/Neptune", "dest": "/Neptune.html" },
-      { "src": "/(.*)", "dest": "/index.html" }
-    ]
-  }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/Sun", "dest": "/src/Sun.html" },
+    { "src": "/Mercury", "dest": "/src/Mercury.html" },
+    { "src": "/Venus", "dest": "/src/Venus.html" },
+    { "src": "/Earth", "dest": "/src/Earth.html" },
+    { "src": "/Mars", "dest": "/src/Mars.html" },
+    { "src": "/Jupiter", "dest": "/src/Jupiter.html" },
+    { "src": "/Saturn", "dest": "/src/Saturn.html" },
+    { "src": "/Uranus", "dest": "/src/Uranus.html" },
+    { "src": "/Neptune", "dest": "/src/Neptune.html" },
+    { "src": "/(.*)", "dest": "/src/index.html" }
+  ]
+}
